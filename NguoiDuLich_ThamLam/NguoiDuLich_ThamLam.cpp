@@ -26,6 +26,7 @@ int GTS(int a[5][5], int n, int TOUR[max], int DiemDau)
 		i = 1;
 		TOUR[i] = dangxet; //dua dangxet vao chu trinh
 		daxet[dangxet] = 1; //dua  dangxet vao daxet
+		// cmt
 		
 		while (i < n)
 		{
